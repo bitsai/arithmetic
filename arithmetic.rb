@@ -1,8 +1,3 @@
-# Function to convert infix arithmetic expression to binary tree
-# The resulting tree knows how to print and evaluate itself
-# Assumes expression is well-formed (matched parens, all operators have 2 operands)
-# Source: http://www.seas.gwu.edu/~csci131/fall96/exp_to_tree.html
-
 $op_priority = {"+" => 0, "-" => 0, "*" => 1, "/" => 1}
 $op_function = {
   "+" => lambda {|x, y| x + y},
