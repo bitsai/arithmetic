@@ -28,7 +28,7 @@ class TreeNode
              when :postfix then [left_s, right_s, @info]
              else []
              end
-      
+
       "(" + strs.join(" ") + ")"
     end
   end
@@ -94,7 +94,7 @@ def infix_exp_to_tree(exp)
 
   node_stack.last
 end
-  
+
 # Examples
 exp = "1 + 2 - 3 * (4 / 6)"
 puts("Original: " + exp)
